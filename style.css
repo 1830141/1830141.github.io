@@ -6,6 +6,7 @@
 body{
     width: 1000px;
     margin: auto;
+    background-image: url("fondobody.jpg");
 }
 
 h1{
@@ -32,3 +33,8 @@ h1{
     -moz-transition: all ease 0.8s;
     transition: all ease 0.8s;
 }
+
+.forma:hover{
+    box-shadow: inset 340px 0 0 0 #08B;
+}
+
