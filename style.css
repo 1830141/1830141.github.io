@@ -1,17 +1,29 @@
 *{
     margin: 0px;
-    padding: 0px;;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
     width: 1000px;
     margin: auto;
-    background-image: url("fondobody.jpg");
+    background-image: url("espacio.jpg");
 }
 
 h1{
     font-family: sans-serif;
     text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 64px;
+}
+
+h3{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    
 }
 
 .forma {
@@ -38,3 +50,42 @@ h1{
     box-shadow: inset 0 -70px 0 0 #08B;
 }
 
+                  
+li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+    text-align: center;
+    font-family: sans-serif;
+}
+     
+
+
+li a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    width:200px;
+    height:30px;
+    border:1px solid #000;
+    color:#fff;
+    background-color: teal;
+    margin-left: 20px;
+    
+}
+            
+li a:hover{
+    color:#000;
+    box-shadow: inset 0 -70px 0 0 #08B;               
+}
+    
+nav li ul{
+    display:none;
+    position:absolute;
+    top:29px;
+    right:120px;
+}
+            
+nav li:hover ul{
+    display:block;
+}
