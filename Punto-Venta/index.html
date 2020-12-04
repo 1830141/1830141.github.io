@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Punto de Venta</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+
+	<div class="diseño">
+		<label>Producto</label>
+		<select name="producto" id="productos">
+
+			<option value="seleccionar">Seleccione una opción...</option>	
+			<option value="coca">Coca 600ml</option>
+			<option value="sabritas">Sabritas</option>
+			<option value="mazapan">Mazapán</option>
+			<option value="agua">Agua 1L</option>
+		</select>
+		<br>
+		<br>	
+
+		<label>Precio:</label>
+		<input type="text" name="precio" id="precio">
+		<br>
+		<br>
+
+		<label>Unidades:</label>
+		<input type="text" name="unidades" id="unidades">
+		<br>
+		<br>
+
+		<button style="margin-left: 50px; box-shadow: gray 2px 1px; width: 20%;" onclick="agregar()">Agregar</button>
+		
+	</div>
+	<br>
+	<table width="70%" border="1" id="tablita">
+
+		<thead>
+			<th>ID del producto</th>
+			<th>Producto</th>
+			<th>Precio unitario</th>
+			<th>Unidades</th>
+			<th>Monto</th>
+			<th>Eliminar</th>	
+			<th>Modificar</th>
+		</thead>
+
+		<tbody id="cuerpo">
+			
+		</tbody>
+
+		<tfoot>
+			<tr>
+				<td colspan="4">Subtotal</td>
+				<td colspan="3" id="subtotal"></td>	
+			</tr>
+			<tr>
+				<td colspan="4">IVA</td>
+				<td colspan="3" id="iva"></td>	
+			</tr>
+			<tr>
+				<td colspan="4">Total a pagar</td>
+				<td colspan="3" id="total"></td>
+			</tr>
+		</tfoot>
+
+	</table>
+</body>
+</html>

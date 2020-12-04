@@ -8,25 +8,26 @@ body{
     width: 1000px;
     margin: auto;
     background-image: url("espacio.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1{
-    font-family: sans-serif;
     text-align: center;
-    color: white;
-    margin-top: 20px;
-    font-size: 64px;
+    /*color: black;*/
+    margin-top: 250px;
+    font-size: 92px;
+    color: rgb(209, 218, 162);
 }
 
-h3{
-    font-family: sans-serif;
+h2{
     text-align: center;
-    color: white;
-    margin-top: 5px;
-    
+    color: rgb(209, 218, 162);
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 40px;
 }
 
-.forma {
+/*.forma {
     color: #FFF;
     background: #0BF;
     padding: 20px;
@@ -48,7 +49,7 @@ h3{
 
 .forma:hover{
     box-shadow: inset 0 -70px 0 0 #08B;
-}
+}*/
 
                   
 li{
@@ -56,21 +57,21 @@ li{
     position:relative;
     width:120px;
     text-align: center;
-    font-family: sans-serif;
+    font-weight: bold;
 }
      
 
 
 li a{
     text-decoration:none;
-    display:inline-block;
+    display: inline-block;
     padding:5px 10px;
-    width:200px;
-    height:30px;
+    width:220px;
+    height:40px;
     border:1px solid #000;
     color:#fff;
     background-color: teal;
-    margin-left: 20px;
+    margin-left: 7px;
     
 }
             
@@ -87,5 +88,5 @@ nav li ul{
 }
             
 nav li:hover ul{
-    display:block;
+    display: block;
 }

@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 400px;
+	margin: auto;
+	background-color: #7B287D;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+	margin-top: 8px;
+	color: white;
+}
+
+button{
+	margin-top: 8px;
+	font-size: 16px;
+	background-color: #CBF3D2;
+	box-shadow: black 2px 1px;
+}
+
+.contenido{
+	background-color: #7067CF;
+	padding: 25px;
+	margin: 10px;
+}
+
+.titulo{
+	background-color: #B7C0EE;
+}

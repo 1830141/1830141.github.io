@@ -1,0 +1,103 @@
+body{
+	width: 1000px;
+	margin: auto;
+	box-shadow: black 3px 2px;
+}
+
+nav{
+	background-color: #D8D174;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline;
+}
+
+nav ul li a{
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+nav ul li a:hover{
+	background-color: #F4B266;
+	color: black;
+	font-weight: 700;
+
+}
+
+main{
+	background-color: #B6C454;
+	width: 70%
+}
+
+section{
+	margin: 15px;
+	padding: 10px;
+	background-color: #D8D174;
+}
+
+aside{
+	background-color: #9B7E46;
+	width: 30%;
+}
+
+article{
+	margin: 15px;
+	padding: 10px;
+	background-color: #D8D174;
+}
+
+p{
+	text-align: justify;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+footer{
+	margin: 10px;
+}
+
+.prueba{
+	background-color: #E6D3A3;
+}
+
+.fotos{
+	margin-left: 50px;
+	width: 18%;
+	border-radius: 20%
+}
+
+.borde{
+	border: solid;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.D_personales{
+	font-style: normal;
+	text-align: center;
+	font-size: 18px;
+	color: #91972A;
+	margin-right: 125px;
+}
+
+.titulo-principal{
+	text-align: center;
+	text-shadow: gray 3px 2px; 
+	font-size: 40px;
+	margin-right: 125px;
+}
+
+.principal{
+	display: flex;
+}

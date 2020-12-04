@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 800px;
+	margin: auto;
+	background-color: #EDAF97;
+	font-family: sans-serif;
+}
+
+table{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+tr:nth-child(odd){ /*impar*/
+	background-color: lightcoral;
+}
+
+tr:nth-child(even){ /*par*/
+	background-color: #AD91A3;
+}
+
+th:nth-child(odd){
+	background-color: lightcoral;
+}
+
+th:nth-child(even){
+	background-color: #AD91A3;
+}
+
+.diseño{
+	text-align: center;
+	margin: 50px;
+	background-color: #EDAF97;
+}
+
+table{
+	background-color: lightcoral;
+	margin-left: 120px;
+}
+
+tfoot{
+
+}
+

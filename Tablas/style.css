@@ -1,0 +1,49 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #247BA0;
+	margin: auto;
+	width: 800px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+}
+
+th{
+	background-color: #0A2463;
+	text-align:center;
+	width: 5%;
+	color:white
+}
+
+header{
+	background-color: #FB3640;
+	text-shadow: black 2px 1px;
+	margin: 5px 10px 10px 10px;
+}
+
+.contenido{
+	text-align: center;
+	color: white;
+	background-color: #605F5E; 
+}
+
+.boton{
+	box-shadow: black 2px 1px;
+	margin: 5px;
+	width: 120px;
+	background-color: #FB3640;
+	color:white;
+}
+
+.resultado{
+	background-color: #E2E2E2;
+	text-align: center;
+	margin-top: 5px;
+}
