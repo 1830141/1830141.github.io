@@ -1,0 +1,65 @@
+h1{
+	text-align: center;
+	color: #006D77;
+	text-transform: uppercase;
+	text-shadow: gray 2px 1px;
+}
+body{
+	width: 1000px;
+	margin: auto;
+	/* background-color: #76877D; */
+	background-color: #40BCD8;
+}
+
+header{
+	background-image: url("https://img.freepik.com/foto-gratis/vintage-azul-aquarelle-pintado-pared-fondo-pintura-decoracion-telon-fondo-color-pop-diseno_1962-1379.jpg?size=626&ext=jpg");
+	background-color: #cccccc;
+}
+
+table{
+	border-radius: 7%;
+	margin: 0 auto;
+	border-color: #39A9DB;
+}
+
+td{
+	border-radius: 9%;
+	/*background-color: #39A9DB; */
+	background-color: #83C5BE;
+	text-align: center;
+}
+
+th{
+	border-radius: 9%;
+	background-color: #83C5BE;
+}
+
+p{
+	text-align: justify;
+	margin: 0 auto;
+
+}
+
+footer{
+	background-image: url("https://img.freepik.com/foto-gratis/vintage-azul-aquarelle-pintado-pared-fondo-pintura-decoracion-telon-fondo-color-pop-diseno_1962-1379.jpg?size=626&ext=jpg");
+	background-color: #cccccc;
+}
+
+h2{
+	color: #1C77C3;
+	text-transform: capitalize;
+	text-shadow: gray 1px 1px;
+}
+
+main{
+	background-color: #EDF6F9;
+}
+
+
+.imgstyle{
+	border-radius: 50%;
+}
+
+.espacio{
+	margin-left: 20px;
+}
